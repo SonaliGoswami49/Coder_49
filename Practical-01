@@ -1,0 +1,12 @@
+// Sonali Goswami
+// Btech [CSE]     Semester-5      UnivRollNo-1918734
+// Practical-01
+// Program to print a message 
+
+object f{
+    def main(args: Array[String]) =
+    {
+        println("Hello world I'm Sonali Goswami!!!")
+    }
+    
+}

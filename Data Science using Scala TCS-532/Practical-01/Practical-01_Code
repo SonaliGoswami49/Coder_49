@@ -1,0 +1,10 @@
+// NAME - SONALI GOSWAMI    UNIV.RNO - 1918734     SEM-5     SEC-K     
+//PRACTICAL-01 [Program to print a message]
+
+object f{
+    def main(args: Array[String]) =
+    {
+        println("Hello world I'm Sonali Goswami!!!")
+    }
+    
+}

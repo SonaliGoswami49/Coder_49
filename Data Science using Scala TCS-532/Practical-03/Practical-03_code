@@ -1,0 +1,39 @@
+// Scala program to illustrate Datatypes
+object mypro
+{
+def main(args: Array[String]) 
+{   
+    var v1: Boolean = true   
+    var v2: Byte = 126       
+    var v3: Float = 0.444f   
+    var v4: Int = 390        
+    var v5: Short = 45       
+    var v6: Double = 11.1156 
+    var v7: Char = 'A'       
+    val v8: String = "Sonali Goswami" 
+    var v9: Long = 1113245   
+    var v10: Any = 1 //Any
+    var anyRefVariable:AnyRef = new java.util.Date //AnyRef
+    var nullVariable = null //NULL
+    val anAbsentString: String = null
+    println("null datatype: "+ anAbsentString)
+    println("Null datatype: "+nullVariable)
+    println("AnyRef datatype: "+anyRefVariable)  
+    println("Any datatype: "+v10)
+    if (v1== true) 
+    {
+    println("boolean datatype")
+    }
+    println("byte datatype: " + v2)
+    println("float datatype: " + v3)
+    println("integer datatype: " + v4)
+    println("short datatype: " + v5)
+    println("double datatype: " + v6)
+    println("char datatype: " + v7)
+    println("String datatype: "+v8)
+    println("Long datatype: "+v9)
+    def UnitReturningFunction(): Unit = println("Unit datatype")
+    val theNothing = throw new RuntimeException("Nothing datatype")
+    
+}
+}

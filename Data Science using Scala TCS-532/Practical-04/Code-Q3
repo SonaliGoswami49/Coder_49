@@ -1,0 +1,13 @@
+//Question-3
+object m
+{
+def main(args: Array[String])
+{
+var x :Int = 88;
+val y :Int = 10;
+println( "Returned Value after addition : " + add(x,y) );
+def add( a:Int, b:Int ) : Int = {
+return (a+b)
+}
+}
+}

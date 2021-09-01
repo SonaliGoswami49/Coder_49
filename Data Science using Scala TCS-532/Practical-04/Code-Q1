@@ -3,12 +3,10 @@ object Demoo
 {
 def main(args: Array[String])
 {
-while (true) {
-
 // Reads the line from the Console
+printf("Enter String ------->>>>> ")
 val result = scala.io.StdIn.readLine()
-printf("Enter the String: %s", result)
-println()
+printf("String entered by user ----->>>>> %s", result)
 }
 }
-}
+

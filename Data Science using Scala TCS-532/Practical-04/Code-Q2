@@ -1,0 +1,30 @@
+//Question-2
+// Scala program of private, protected and public access modifier
+class abc
+{
+private var x:Int = 90 //private variable
+protected var y:Int = 12 //protected variable
+var z:Int = 123 //public variable
+def display()
+{
+x = 1
+println(x)
+}
+}
+class new1 extends abc
+{
+def display1()
+{
+y = 12
+println(y)
+}
+}
+object access extends App
+{
+var e = new abc()
+e.display()
+var e1 = new new1()
+e1.display1()
+println(e.z)
+println(result)
+}
